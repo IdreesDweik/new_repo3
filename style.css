@@ -1,0 +1,54 @@
+p.dotted {border-style: dotted;}
+p.dashed {border-style: dashed;}
+p.solid {border-style: solid;}
+p.double {border-style: double;}
+p.groove {border-style: groove;}
+p.ridge {border-style: ridge;}
+p.inset {border-style: inset;}
+p.outset {border-style: outset;}
+p.none {border-style: none;}
+p.hidden {border-style: hidden;}
+p.mix {border-style: dotted dashed solid double;}
+
+p.example1 {
+    border-style: solid;
+    border-color: aqua;
+    border-width:10px 20px 30px 40px;
+    border-radius: 20px;
+    opacity: 0.5;
+    
+}
+
+p.example2 {
+    border-style: solid;
+    border-color: aqua;
+    border-width:10px 20px 30px 40px;
+    border-radius: 20px;
+    background: rgba(76, 175, 80, 0.1)
+}
+
+ 
+.img1 {
+    opacity: 1.0; 
+  }
+
+  .img1:hover {
+    opacity: 0.5;
+  }
+  
+.img2 
+  {
+    opacity: 0.5; 
+  }
+
+  .img2:hover {
+    opacity: 1;
+  }
+
+div {
+    border: 1px solid black;
+    margin: 10px 20px 30px 40px;
+    background-color: slateblue;
+  }
+
+
